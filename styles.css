@@ -1,0 +1,40 @@
+@font-face {
+  font-family: Audiowide;
+  src: url('fonts/Audiowide/Audiowide-Regular.ttf');
+}
+@font-face {
+  font-family: ImperialScript;
+  src: url('fonts/Imperial_Script/ImperialScript-Regular.ttf');
+}
+@font-face {
+  font-family: Lobster;
+  src: url('fonts/Lobster/Lobster-Regular.ttf');
+}
+@font-face {
+  font-family: PressStart2P;
+  src: url('fonts/Press_Start_2P/PressStart2P-Regular.ttf');
+}
+@font-face {
+  font-family: Smokum;
+  src: url('fonts/Smokum/Smokum-Regular.ttf');
+}
+
+html, body {
+  font-family: Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.settings {
+  text-align: center;
+  width: 32rem;
+  max-width: calc(100% - 2rem);
+  margin: 1rem auto;
+}
+#profileCanvas {
+  width: 26rem;
+  max-width: calc(100% - 2rem);
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}

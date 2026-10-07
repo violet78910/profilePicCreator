@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Picture Creator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Profile Picture Creator</h1>
+  </header>
+  <section class="settings">
+    <label for="name">Name:</label>
+    <input type="text" title="Name" id="name">
+    <label for="font">Font:</label>
+    <select name="font" id="font"></select>
+    <br>
+    <label for="backgroundColor">Background Color:</label>
+    <select name="backgroundColor" id="backgroundColor" class="colorSelect"></select>
+    <button id="randomButton">Set Random</button>
+    <button id="downloadButton">Download</button>
+  </section>
+  <section class="profileImageContainer">
+    <canvas id="profileCanvas"></canvas>
+  </section>
+  <script src="scripts.js"></script>
+</body>
+</html>
